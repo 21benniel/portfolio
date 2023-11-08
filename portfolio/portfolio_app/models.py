@@ -14,3 +14,4 @@ class Project(models.Model):
     technologies = models.TextField()
     github_link = models.URLField(max_length=255)
     demo_link = models.URLField(max_length=255, blank=True)
+

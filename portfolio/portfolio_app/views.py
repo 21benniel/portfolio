@@ -13,5 +13,5 @@ def projects_view(request):
     return render(request, 'portfolio_app/projects.html', {'projects': projects})
 
 def home(request):
-    resume = Resume.objects.first()
-    return render(request, 'portfolio_app/resume.html', {'resume': resume})
+    # resume = Resume.objects.first()
+    return render(request, 'portfolio_app/resume.html',content_type='html') 
